@@ -1,0 +1,91 @@
+
+.navbar{
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  
+}
+.colorPallets{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  margin: 0px -12px 0px 0px;
+  padding: 3px;
+}
+.color-box{
+  border: 2px solid rgb(204, 204, 204);
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin: 2px;
+  transition: tranform 0.2s ease-in-out;
+}  
+.color-box:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.black{
+  border: 2px solid rgb(66, 66, 66);
+   background-color: black;
+}
+.blue{
+  border: 2px solid rgb(84, 92, 158);
+  background-color: rgb(1, 11, 97);
+}
+.red{
+  border: 2px solid rgb(176, 128, 128);
+  background-color: rgb(98, 0, 0);
+}
+.green{
+  border: 2px solid rgb(118, 170, 130);
+  background-color: rgb(2, 105, 26);
+}
+.white{
+  border: 2px solid rgb(161, 161, 161);
+  background-color: white;
+}
+
+.custom-btn{
+  border-radius: 20px;
+  background-color: rgb(60, 60, 141) !important;
+  color: white !important;
+  transition: transform 0.2s ease-in-out ;
+  cursor: pointer ;
+  box-shadow: 0px 2px 2px rgb(89, 183, 223);
+}
+.clear{
+  background-color: rgb(188, 46, 46) !important;
+}
+.custom-btn:hover{
+    transform: scale(1.05) ;
+}
+.custom-form{
+  border-radius: 8px;
+}
+.custom-form:hover{
+  box-shadow: 0px 0px 5px black;
+}
+.heading{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 20px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 20px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; 
+}
